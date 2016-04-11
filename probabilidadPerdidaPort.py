@@ -39,6 +39,6 @@ def ProbabilidadPerdida(pp,matrizcov,var,precioInicial,comosicion,TiempoFinal,me
     for i in range(1,len(t)):
         if t[i]<pp:
             l=l+1
-        ProbabilidadPerdida=l/len(ValorPort)
+    ProbabilidadPerdida=l/len(ValorPort)
     return(ProbabilidadPerdida)
 
